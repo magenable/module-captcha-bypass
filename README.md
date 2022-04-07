@@ -10,7 +10,6 @@ Run the following command in Magento 2 root folder
 
 ```
 composer require magenable/module-captcha-bypass
-bin/magento module:enable Magenable_CaptchaBypass
 bin/magento setup:upgrade
 ```
 ## Upgrade
