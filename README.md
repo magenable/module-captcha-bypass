@@ -1,6 +1,7 @@
 # Magenable Captcha Bypass
 
-The extension allows you to disable recaptcha on the site for certain ip-addresses or a specific browser User-Agent, this can be useful in time during automatic testing of the site.
+The extension disables Google reCAPTCHA for defined list of ip-addresses or a specific browser User-Agent. 
+This can be useful for automated testing. 
 
 ## Installation
 
@@ -25,9 +26,9 @@ bin/magento setup:upgrade
 
 ## Extension Settings
 
-- In the menu of admin panel select **Stores** -> **Settings** -> **Configuration**
+- Go to **Stores** -> **Settings** -> **Configuration** in Magento admin
 - Select **Magenable Extensions** and click on **Captcha Bypass**
-- In group **General** in field **Enabled** select **Yes** 
-- In field **Whitelisted IP addresses** specify one or few ip-addresses separated by comma
+- In group **General** set the field **Enabled** to **Yes** 
+- In field **Whitelisted IP addresses** specify one or several ip-addresses separated by comma
 - Or in field **Whitelisted User-Agent** specify User-Agent
-- If one of this condition (from previous two fields) will meet the recaptcha will be disabled.
+- If one of the conditions (from previous two fields) is met the reCAPTCHA will not appear.
