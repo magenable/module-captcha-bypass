@@ -32,3 +32,7 @@ bin/magento setup:upgrade
 - In field **Whitelisted IP addresses** specify one or several ip-addresses separated by comma
 - Or in field **Whitelisted User-Agent** specify User-Agent
 - If one of the conditions (from previous two fields) is met the reCAPTCHA will not appear.
+
+## Compatibility
+- Compatibility with Magento v2.4.5 tested
+- Compatibility with Magento v2.4.6 tested
