@@ -36,3 +36,6 @@ bin/magento setup:upgrade
 ## Compatibility
 - Compatibility with Magento v2.4.5 tested
 - Compatibility with Magento v2.4.6 tested
+- Compatibility with Magento v2.4.7 tested
+- Compatibility with Magento v2.4.8 tested
+- Compatibility with Magento v2.4.9 tested
