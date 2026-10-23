@@ -34,8 +34,4 @@ bin/magento setup:upgrade
 - If one of the conditions (from previous two fields) is met the reCAPTCHA will not appear.
 
 ## Compatibility
-- Compatibility with Magento v2.4.5 tested
-- Compatibility with Magento v2.4.6 tested
-- Compatibility with Magento v2.4.7 tested
-- Compatibility with Magento v2.4.8 tested
-- Compatibility with Magento v2.4.9 tested
+Tested on Magento Open Source 2.4.5 – 2.4.10
